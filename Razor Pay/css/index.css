@@ -1,5 +1,5 @@
 body {
-  margin: 0 136px;
+  margin: 17px 167px;
   padding: 0;
   font-family: Muli,BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
   background-color: #02042b;
@@ -28,8 +28,20 @@ body header .flexx a {
   padding: 17px;
 }
 
+body header .logo_white {
+  width: 135px;
+}
+
 body main .figure1 {
-  background-image: url("http://127.0.0.1:5500/Razor%20Pay/icons/figure1.png");
+  width: 100%;
+  height: 605px;
+  background: url("/Razor Pay/icons/figure1.png") no-repeat right;
+  background-size: 810px;
+}
+
+body main .figure1 form {
+  border-color: #2783f3;
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 body main .figure1txt h1 {
@@ -38,6 +50,16 @@ body main .figure1txt h1 {
   line-height: 53px;
   font-weight: 800;
   max-width: 450px;
+}
+
+body main .figure1txt h1::after {
+  width: 24px;
+  height: 4px;
+  content: ' ';
+  background-color: #58c19c;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 body main .figure1txt p {
